@@ -20,29 +20,29 @@
             <!--Top left-->
             <div class="border_radius_tl inputs">
                 <p>Border-top-left-radius</p>
-                <input type="range" name="topleft" id="topleft" min="0" max="200" step="1" value="0">
-                <input type="number" name="tl" id="tl_text">
+                <input type="range" name="topleft" id="topleft" min="0" max="50" step="1" value="0">
+                <input type="number" name="tl" id="tl_text" value="0" disabled>
             </div>
 
             <!--Top right-->
             <div class="border_radius_tr inputs">
                 <p>Border-top-right-radius</p>
-                <input type="range" name="topright" id="topright" min="0" max="200" step="1" value="0">
-                <input type="number" name="tr" id="tr_text">
+                <input type="range" name="topright" id="topright" min="0" max="50" step="1" value="0">
+                <input type="number" name="tr" id="tr_text" value="0" disabled>
             </div>
 
             <!--Bottom left-->
             <div class="border_radius_bl inputs">
                 <p>Border-bottom-left-radius</p>
-                <input type="range" name="Bottomleft" id="bottomleft" min="0" max="200" step="1" value="0">
-                <input type="number" name="bl" id="bl_text">
+                <input type="range" name="Bottomleft" id="bottomleft" min="0" max="50" step="1" value="0">
+                <input type="number" name="bl" id="bl_text" value="0" disabled>
             </div>
 
             <!--Bottom right-->
             <div class="border_radius_br inputs">
                 <p>Border-bottom-right-radius</p>
-                <input type="range" name="Bottomright" id="Bottomright" min="0" max="200" step="1" value="0">
-                <input type="number" name="br" id="br_text">
+                <input type="range" name="Bottomright" id="bottomright" min="0" max="50" step="1" value="0">
+                <input type="number" name="br" id="br_text" value="0" disabled>
             </div>
         </section>
         <br>
@@ -52,7 +52,13 @@
                 <div class="textarea">
                 </div>
             </div>
+            <div class="br_all">
+                <p>Border-radius (all)</p>
+                <input type="range" name="br_all" id="border-radius" min="0" max="50" step="1" value="0">
+                <input type="number" name="br_all" id="border-radius_all" disabled>
+            </div>
         </section>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
