@@ -45,6 +45,10 @@ const updateAll = (input) => {
     bordrad.value = input.target.value;
     br_all.value = input.target.value;
     results.style.borderRadius = `${bordrad.value}px`;
+    updateBottomLeft(input)
+    updateBottomRight(input)
+    updateTopLeft(input)
+    updateTopRight(input)
 }
 
 topleft.addEventListener('input', updateTopLeft)
